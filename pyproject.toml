@@ -1,0 +1,16 @@
+[project]
+name = "tiny-tool-registry"
+version = "0.1.0"
+description = "Zero-dependency dynamic tool registry with versioning, discovery, and hot-reload for AI agents."
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.8"
+keywords = ["ai-agent", "tool-registry", "mcp", "tool-discovery", "agentic"]
+classifiers = ["License :: OSI Approved :: MIT License", "Programming Language :: Python :: 3", "Programming Language :: Python :: 3.8+"]
+
+[project.urls]
+Homepage = "https://github.com/hussain-alsaibai/tiny-tool-registry"
+Repository = "https://github.com/hussain-alsaibai/tiny-tool-registry"
+
+[tool.setuptools]
+py-modules = ["tiny_tool_registry"]
